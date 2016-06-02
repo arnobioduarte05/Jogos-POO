@@ -1,10 +1,10 @@
-#include <iostream>
+#include <iostream> //integrando a biblioteca
 
-using namespace std;
+using namespace std; //
 
-int main()
-{
+int main()  //Função Principal
+{ //Abrindo Função principal
 	
-	cout << "HelloWorld!" << endl;
-	return 0;
-}
+	cout << "HelloWorld!" << endl; //Imprimindo na tela
+	return 0; //
+} //Fechando função principal
