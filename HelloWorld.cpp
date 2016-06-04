@@ -1,5 +1,5 @@
-#include <iostream> //Estas duas primeiras linhas do código, fazem com que as bibliotecas com entrada e saída do terminal estejam disponíveis para o programa.
-using namespace std;
+#include <iostream> //Coloca todas as definições de nomes (para nomes como cin e cout) no std namespace.
+using namespace std;//Namespace. Define todas as funções da biblioteca padrão.
 
 int main() //Esta linha diz que main é uma função sem parâmetros que ao terminar sua execução retornará um valor inteiro int.
 { //Abrindo Função principal.
