@@ -7,8 +7,8 @@ int main()//Esta linha diz que main é uma função sem parâmetros que ao termi
 { //Abrindo função principal
 	bool sair = false;//Usada para controlar os comandos de seleção e loopings.
 	string jog1, jog2;
-	int vida1 = 20, vida2 = 20; //Life dos personagens
-	int danoc1 = 0, danoc2 = 0; //Dano causado
+	int vida1 = 20, vida2 = 20; //Life dos personagens.
+	int danoc1 = 0, danoc2 = 0; //Dano causado.
 
 	cout << "Digite o nome do jogador 1:" << endl; //Pedi para digitar o nome do jogador
 	cin >> jog1; //Vai ler o que o usuário digitar no teclado e estabelece o que ele digitou como o valor da variável jog1. Neste caso, vai acondicionar o nome do jogador.
