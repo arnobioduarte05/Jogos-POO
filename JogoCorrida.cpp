@@ -2,6 +2,7 @@
 #include <ctime>
 using namespace std;
 
+
 void imprimir_espacos(int rodada);
 int main()
 {
