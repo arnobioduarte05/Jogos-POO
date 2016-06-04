@@ -76,9 +76,9 @@ int main()//Função princcipal
 	}
     /*---------------------------------------------------------------------------------------*/
 	else //Se o life dos jogadores forem semelhantes, entrará nesta condição
-	{ //Abrindo a condição else 
+	{ 
 		cout << "Empate!" << endl;
-	} //Fechando a condição else.
+	} 
      /*--------------------------------------------------------------------------------------*/
 	return 0;//Este comando termina a invocação da função main e fornece 0 como valor de função. O programa termina quando este comando for executado.
 } 
