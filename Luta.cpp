@@ -59,7 +59,7 @@ int main()//Função princcipal
 		system("cls"); //Limpa a tela
      /*-------------------------------------------------------------------------------------*/
 		/*Se a vida de ambos chegarem a menor ou igual a 0, os dois perderão */
-		if (vida1 <= 0 || vida2 <= 0) /
+		if (vida1 <= 0 || vida2 <= 0) 
 		{ 
 			sair = true; 
 		}
