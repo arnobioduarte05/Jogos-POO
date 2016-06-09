@@ -57,7 +57,7 @@ int main()
 
 		              // ------ MOSTRAR AS MOEDAS EM TELA COMO NA IMAGEM ------
 		              // Coloque o código aqui!
-		              for (int imprimir = 1; imprimir < moedas; imprimir++) cout << "@ " << endl;
+		              for (int imprimir = 0; imprimir < moedas; imprimir++) cout << "@ " << endl;
 
 	  	            // Diz qual o jogador que está jogando.
 		              cout << "Vez do Jogador " << jogador_da_vez << endl;
