@@ -33,9 +33,10 @@ int main()
 	        int pont_jog1 = 0, pont_jog2 = 0;
 
 	        // Total de moedas por partida.
-	        int moedas = 10;
+	        int moedas = 11;
 	        // Quantidade de moedas que o jogador quer retirar.
           int qnt_moedas_tira;
+          
 
 	        // ------ RECEBER O NOME DOS JOGADORES 1 E 2 ------
 	        // Coloque o código aqui!
@@ -99,9 +100,14 @@ int main()
                       			{
 				                                  // ------ TROCAR DE JOGADOR (DO 1 PARA O 2 E VICEVERSA) ------
 				                                  // Coloque o código aqui!
-				                                  if (jogador_da_vez == 1) jogador_da_vez == 2;
-				                                  else if (jogador_da_vez == 2) jogador_da_vez == 1;
-			                       }
+				                                  if (jogador_da_vez == 1) 
+												  {
+												  
+												  jogador_da_vez = 2;
+											     }
+				                                  else if (jogador_da_vez == 2) jogador_da_vez = 1;
+			                   }
+								   
 		                }
 		                else
 		                {
