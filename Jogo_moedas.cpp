@@ -67,12 +67,10 @@ int main()
 		              cin >> qnt_moedas_tira;
 
 		              // Verifica se a quantidade de moedas retiradas é valida.
-		              if (qnt_moedas_tira == 1 ||
-			                    qnt_moedas_tira == 3 ||
-			                    qnt_moedas_tira == 4
+		              if (qnt_moedas_tira == 1 ||(qnt_moedas_tira == 3 && moedas>=3 )||(qnt_moedas_tira == 4 && moedas>=4))
 			                    // ------ ESSA CONDIÇÃO POSSUI ALGUM PROBLEMA? VERIFIQUE! -----
 		                      // Teste o programa depois de feito e veja se tem algum erro!
-		  	                  )
+		  	                  
 		              {
 			                    // ------ RETIRAR AS MOEDAS ------
 			                    // Coloque o código aqui!
